@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("./i.avif") no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: cursive;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+table,
+th,
+tr,
+td {
+  border: 2px ridge rgb(255, 33, 3);
+  border-collapse: collapse;
+  background-color: orchid;
+}
+fieldset{
+  color: rgb(179, 0, 255);
+}
+
+.form {
+  margin: 0px 0px 0px 100px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+input {
+  width: 230px;
+  height: 21px;
+  color: black;
+  border: none;
+  margin: 5px 0px 0px 0px;
+  background-color: rgb(138, 138, 247);
+}
+input:hover,textarea:hover,select:hover{
+  border: 3px solid rgb(255, 19, 19);
+}
+button {
+  width: 160px;
+  height: 30px;
+  border: none;
+  background-color: rgb(16, 239, 255);
+  font-family: cursive;
+  font-size: 20px;
+}
+#DATE {
+  margin: 0 7% 0 0;
+}
+#exit {
+  margin: 0 0 0 7%;
+}
+.card-1 {
+  margin: 12px 0px 0px 12px;
+}
+.card-2 {
+  margin: 0px 0px 0px 14px;
+}
+.card-3 {
+  margin: 50px 12px 11px 56px;
+  overflow: scroll;
+  width: 530px;
+  height: 530px;
+  background-color: chocolate;
+  padding: 10px 10px 10px 10px;
+}
